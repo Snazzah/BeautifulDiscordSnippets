@@ -1,0 +1,32 @@
+.tooltip.tooltip-right.tooltip-normal, .tooltip.tooltip-bottom.tooltip-normal, .tooltip.tooltip-top.tooltip-normal {
+    background: #fff;
+    color: #767676;
+    border: 1px solid #767676 !important; 
+    border-radius: 0px;
+    box-shadow: 4px 4px 8px -2px rgba(0,0,0,0.3);
+    padding: 5px;
+    -webkit-animation: tooltip-anim 200ms ease-in-out;
+    animation: tooltip-anim 200ms ease-in-out;
+}
+
+.tooltip.tooltip-right.tooltip-normal:after, .tooltip.tooltip-bottom:after, .tooltip.tooltip-top:after {
+    opacity: 0;
+}
+
+@-webkit-keyframes tooltip-anim {
+    from {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tooltip-anim {
+    from {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
