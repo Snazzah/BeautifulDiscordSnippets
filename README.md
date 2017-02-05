@@ -1,10 +1,9 @@
 # Snazzah's Beautiful Discord Snippets
-### Table of ~~Contents~~ Snippets
+### Table of Snippets
 - [Tooltips](#Tooltips)
   - [DarkFaders](#darkfaders)
   - [Windows 10](#tt/windows10)
 - [Context Menu](#context-menu)
-  - [DarkFaders](#darkfaders)
   - [Windows 10](#cm/windows10)
 
 ## <a name="tooltips"></a>Tooltips
@@ -20,4 +19,4 @@
 
 ### <a name="tt/windows10"></a>Windows 10
 **[Source](https://github.com/SnazzyPine25/BeautifulDiscordSnippets/blob/master/ContextMenu/Windows10.css)** | 
-[Dark Theme Example](http://i.imgur.com/OSijiwR.png) | [Light Theme Example](http://i.imgur.com/K5HNWUG.png)
+[Dark Theme Example](http://i.imgur.com/OSijiwR.png) | [Light Theme Example](http://i.imgur.com/K5HNWUG.png) | As seen on [Snazzah's Skype Theme](https://github.com/SnazzyPine25/BeautifulDiscordThemes#skype)
