@@ -19,4 +19,4 @@
 
 ### <a name="tt/windows10"></a>Windows 10
 **[Source](https://github.com/SnazzyPine25/BeautifulDiscordSnippets/blob/master/ContextMenu/Windows10.css)** | 
-[Dark Theme Example](http://i.imgur.com/OSijiwR.png) | [Light Theme Example](http://i.imgur.com/K5HNWUG.png) | As seen on [Snazzah's Skype Theme](https://github.com/SnazzyPine25/BeautifulDiscordThemes#skype)
+[Dark Theme Example](http://i.imgur.com/OSijiwR.png) | [Light Theme Example](http://i.imgur.com/K5HNWUG.png) | As seen on [Snazzah's Skype Theme](https://github.com/SnazzyPine25/BeautifulDiscordThemes#skype) | [Region Change](http://i.imgur.com/lWw1e0N.gif)
