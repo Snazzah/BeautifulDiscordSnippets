@@ -5,6 +5,8 @@
   - [Windows 10](#tt/windows10)
 - [Context Menu](#context-menu)
   - [Windows 10](#cm/windows10)
+- [Misc](#misc)
+  - [Windows 7](#windows7)
 
 ## <a name="tooltips"></a>Tooltips
 ### <a name="darkfaders"></a>DarkFaders
@@ -17,6 +19,12 @@
 
 ## <a name="tooltips"></a>Tooltips
 
-### <a name="tt/windows10"></a>Windows 10
+### <a name="cm/windows10"></a>Windows 10
 **[Source](https://github.com/SnazzyPine25/BeautifulDiscordSnippets/blob/master/ContextMenu/Windows10.css)** | 
-[Dark Theme Example](http://i.imgur.com/OSijiwR.png) | [Light Theme Example](http://i.imgur.com/K5HNWUG.png) | As seen on [Snazzah's Skype Theme](https://github.com/SnazzyPine25/BeautifulDiscordThemes#skype) | [Region Change](http://i.imgur.com/lWw1e0N.gif)
+[Dark Theme Example](http://i.imgur.com/OSijiwR.png) | [Light Theme Example](http://i.imgur.com/K5HNWUG.png) | [Region Change](http://i.imgur.com/lWw1e0N.gif) | As seen on [Snazzah's Skype Theme](https://github.com/SnazzyPine25/BeautifulDiscordThemes#skype)  
+
+## <a name="misc"></a>Misc
+
+### <a name="windows7"></a>Windows 7
+**[Source](https://github.com/SnazzyPine25/BeautifulDiscordSnippets/blob/master/Misc/Windows7.css)** | 
+[Button](http://owo.whats-th.is/0d2c91.gif) | [Radio & Checkbox](http://i.imgur.com/Bq0rjmX.png) | [Dropdown](https://cdn.discordapp.com/attachments/257343240120827904/278051553175404546/unknown.png) | As seen on [Snazzah's Skype Theme](https://github.com/SnazzyPine25/BeautifulDiscordThemes#skype)
