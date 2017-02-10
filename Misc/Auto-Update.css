@@ -1,0 +1,64 @@
+.chat .title-wrap .auto-update {
+    border-radius: 5px;
+    -webkit-animation: update-anim 4s ease-in-out infinite;
+    animation: update-anim 4s ease-in-out infinite;
+}
+
+.chat .title-wrap .auto-update span {
+    -webkit-animation: update-child-anim 4s ease-in-out infinite;
+    animation: update-child-anim 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes update-anim {
+    from {
+        background-color: rgba(67, 181, 129, 0.4);
+        transform: scale(1);
+    }
+    50% {
+        background-color: rgba(67, 181, 129, 0.6);
+        transform: scale(0.8);
+    }
+    100% {
+        background-color: rgba(67, 181, 129, 0.4);
+        transform: scale(1);
+    }
+}
+
+@keyframes update-anim {
+    from {
+        background-color: rgba(67, 181, 129, 0.4);
+        transform: scale(1);
+    }
+    50% {
+        background-color: rgba(67, 181, 129, 0.6);
+        transform: scale(0.8);
+    }
+    100% {
+        background-color: rgba(67, 181, 129, 0.4);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes update-child-anim {
+    from {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes update-child-anim {
+    from {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}

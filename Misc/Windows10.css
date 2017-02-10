@@ -1,0 +1,116 @@
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: #fff;
+    border-color: #7b7b7b;
+    border-radius: 0;
+    border-width: 1px;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    display: table;
+    width: 4px;
+    height: 10px;
+    border: 2px solid #000;
+    border-top-width: 0;
+    border-left-width: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition: opacity 0.2s ease;
+}
+
+.checkbox .checkbox-inner span {
+    background-color: #fff;
+    border-color: #8e8f8f;
+    border-radius: 0;
+    border-width: 1px;
+    transition: all 0.2s ease;
+}
+
+.item-toggle .checkbox .checkbox-inner span {
+    box-shadow: inset 0px 0px 0px 1px #8e8f8f;
+    border-color: #8e8f8f;
+}
+
+.checkbox span {
+    background-color: #fff;
+    border-color: #8e8f8f;
+    border-radius: 0;
+    border-width: 1px;
+    transition: all 0.2s ease;
+}
+
+.checkbox .checkbox-inner span:hover,
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:hover {
+    background-color: #fff;
+    border-color: #6fc4ee;
+    border-radius: 0;
+    transition: all 0.2s ease;
+}
+
+.Select-control{
+    color:#202020!important;
+    border:#707070 2px solid!important;
+    box-shadow:none;
+    border-radius: 0px;
+    border-color:#7b7b7b!important;
+    transition:all 0.2s ease;
+}
+
+.has-value>.Select-control>.Select-placeholder,
+.has-value>.Select-control>.Select-value {
+    padding-top: 1px;
+    padding-bottom: 0px;
+}
+
+.Select>.Select-control {
+    height: 20px;
+}
+
+.Select-control:hover, 
+.Select-control:active {
+    transition:all 0.2s ease;
+    border-color:#6fc4ee!important;
+}
+
+.Select-option{
+    font-family:Segoe UI;
+    font-size:12px!important;
+    transition:all 0.2s ease;
+    padding: 5px;
+}
+
+.form .Select-option.is-focused {
+    font-family:Segoe UI;
+    font-size:12px!important;
+    color: #fff;
+    background-color: #3399ff;
+    transition:all 0.2s ease;
+}
+
+.radio .radio-inner {
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    left: 4px;
+    background-color: rgba(0,0,0,0);
+    border-color: #8e8f8f;
+    border-width: 1px;
+    transition: all 0.2s ease;
+}
+
+.radio .radio-inner:hover {
+    border-color: #6fc4ee;
+    transition: all 0.2s ease;
+}
+
+.radio .radio-inner span:after {
+    opacity: 0;
+    content: "";
+    background: #000;
+    top: -1px;
+    left: -1px;
+    -webkit-transition: .3s ease;
+}

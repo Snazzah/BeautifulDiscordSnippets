@@ -7,6 +7,8 @@
   - [Windows 10](#cm/windows10)
 - [Misc](#misc)
   - [Windows 7](#windows7)
+  - [Windows 10](#mi/windows7)
+  - [Auto-Update](#autoupdate)
 
 ## <a name="tooltips"></a>Tooltips
 ### <a name="darkfaders"></a>DarkFaders
@@ -27,4 +29,10 @@
 
 ### <a name="windows7"></a>Windows 7
 **[Source](https://github.com/SnazzyPine25/BeautifulDiscordSnippets/blob/master/Misc/Windows7.css)** | 
-[Button](http://owo.whats-th.is/0d2c91.gif) | [Radio & Checkbox](http://i.imgur.com/Bq0rjmX.png) | [Dropdown](https://cdn.discordapp.com/attachments/257343240120827904/278051553175404546/unknown.png) | As seen on [Snazzah's Skype Theme](https://github.com/SnazzyPine25/BeautifulDiscordThemes#skype)
+[Button](http://owo.whats-th.is/0d2c91.gif) | [Radio & Checkbox](http://i.imgur.com/Bq0rjmX.png) | [Dropdown](https://cdn.discordapp.com/attachments/257343240120827904/278051553175404546/unknown.png)
+
+### <a name="mi/windows10"></a>Windows 10
+**[Source](https://github.com/SnazzyPine25/BeautifulDiscordSnippets/blob/master/Misc/Windows10.css)** | As seen on [Snazzah's Skype Theme](https://github.com/SnazzyPine25/BeautifulDiscordThemes#skype)
+
+### <a name="autoupdate"></a>Auto-Update
+**[Source](https://github.com/SnazzyPine25/BeautifulDiscordSnippets/blob/master/Misc/Auto-Update.css)** [Dark](http://i.imgur.com/hHxgK3Y.gif) | [Light](http://i.imgur.com/tjFnDNC.gif) | As seen on [Snazzah's Skype Theme](https://github.com/SnazzyPine25/BeautifulDiscordThemes#skype)
