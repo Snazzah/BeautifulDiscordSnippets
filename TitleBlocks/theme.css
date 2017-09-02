@@ -1,0 +1,24 @@
+.markup .hljs::before {
+    width: 100%;
+    display: block;
+    margin-top: -7px;
+    padding-right: 14px;
+    overflow: visible;
+    color: #fff;
+    margin-bottom: 5px;
+    transform: translateX(-7px);
+    text-shadow: 0 0 5px #000;
+    background-size: 10%;
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+}
+
+.markup pre {
+    border: none !important;
+}
+
+@import url("https://rawgit.com/Snazzah/BeautifulDiscordSnippets/master/TitleBlocks/lang.css");
+
+/* @import url("https://rawgit.com/Snazzah/BeautifulDiscordSnippets/master/TitleBlocks/images.css");
+ * - Optional: Adds images to certain languages
+ */
