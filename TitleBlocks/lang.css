@@ -125,3 +125,39 @@
     content: " JBoss CLI";
     background-color: #da352f;
 }
+
+.markup .hljs[class~="prolog" i]::before {
+    content: " SWI Prolog";
+    background-color: #082a47;
+}
+
+.markup .hljs[class~="d" i]::before {
+    content: " D";
+    background-color: #b31f1f;
+}
+
+.markup .hljs[class~="cs" i]::before,
+.markup .hljs[class~="csharp" i]::before {
+    content: " C#";
+    background-color: #390198;
+}
+
+.markup .hljs[class~="go" i]::before {
+    content: " Go";
+    background-color: #69d7e2;
+}
+
+.markup .hljs[class~="makefile" i]::before {
+    content: " Makefile";
+    background-color: #8c2a0f;
+}
+
+.markup .hljs[class~="lua" i]::before {
+    content: " Lua";
+    background-color: #0000da;
+}
+
+.markup .hljs[class~="less" i]::before {
+    content: " Less";
+    background-color: #254d76;
+}
