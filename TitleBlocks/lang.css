@@ -1,0 +1,86 @@
+.markup .hljs[class~="js" i]::before,
+.markup .hljs[class~="javascript" i]::before {
+    content: " Javascript";
+    background-color: #165eab;
+}
+
+.markup .hljs[class~="css" i]::before {
+    content: " Cascading Style Sheet";
+    background-color: #ab6f16;
+}
+
+.markup .hljs[class~="bash" i]::before,
+.markup .hljs[class~="sh" i]::before {
+    content: " Bash";
+    background-color: #ab1663;
+}
+
+.markup .hljs[class~="markdown" i]::before,
+.markup .hljs[class~="md" i]::before {
+    content: " Markdown";
+    background-color: #ab2e16;
+}
+
+.markup .hljs[class~="html" i]::before {
+    content: " HTML";
+    background-color: #16ab6f;
+}
+
+.markup .hljs[class~="python" i]::before,
+.markup .hljs[class~="py" i]::before {
+    content: " Python";
+    background-color: #f39c12;
+}
+
+.markup .hljs[class~="xl" i]::before {
+    content: " eXtensible Language";
+    background-color: #4872a8;
+}
+
+.markup .hljs[class~="xml" i]::before {
+    content: " eXtensible Markup Language";
+    background-color: #4872a8;
+}
+
+.markup .hljs[class~="http" i]::before {
+    content: " HTTP";
+    background-color: #e67e22;
+}
+
+.markup .hljs[class~="coffeescript" i]::before,
+.markup .hljs[class~="coffee" i]::before {
+    content: " Coffee (Javascript)";
+    background-color: #3a1b1b;
+}
+
+.markup .hljs[class~="handlebars" i]::before,
+.markup .hljs[class~="hbs" i]::before {
+    content: " Handlebars";
+    background-color: #333;
+}
+
+.markup .hljs[class~="ruby" i]::before {
+    content: " Ruby";
+    background-color: #e73e3e;
+}
+
+.markup .hljs[class~="cpp" i]::before {
+    content: " C++";
+    background-color: #2980b9;
+}
+
+.markup .hljs[class~="sql" i]::before {
+    content: " Structured Query Language";
+    background-color: #2ecc71;
+}
+
+.markup .hljs[class~="clojure" i]::before {
+    content: " Clojure";
+    background-color: #90b4fe;
+}
+
+.markup .hljs[class~="ts" i]::before,
+.markup .hljs[class~="typescript" i]::before {
+    content: " TypeScript";
+    background-color: #007acc;
+}
