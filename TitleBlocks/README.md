@@ -1,5 +1,5 @@
 # TitleBlocks
-### Still being made for all languages](https://github.com/Snazzah/BeautifulDiscordSnippets/issues/1)
+### [Still being made for all languages](https://github.com/Snazzah/BeautifulDiscordSnippets/issues/1)
 
 ![](https://i-need.discord.cards/713ebf.png)
 ![](https://i-need.discord.cards/df3803.png)
