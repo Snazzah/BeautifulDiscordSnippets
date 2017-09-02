@@ -18,3 +18,18 @@
 .markup .hljs[class~="swift" i]::before {
     background-image: url(https://i-need.discord.cards/52f19c.png);
 }
+
+.markup .hljs[class~="rust" i]::before {
+    background-image: url(https://i-need.discord.cards/5e80d9.png);
+    background-size: 20%;
+}
+
+.markup .hljs[class~="java" i]::before {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png);
+    background-position: 90% 40%;
+}
+
+.markup .hljs[class~="jboss-cli" i]::before {
+    background-image: url(https://newrelic.com/assets/languages/platforms/java_jboss-21a166a8bdd6f249c59d8be721ba4faa.svg);
+    background-size: 20%;
+}
