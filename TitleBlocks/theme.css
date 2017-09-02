@@ -1,3 +1,9 @@
+@import url("https://rawgit.com/Snazzah/BeautifulDiscordSnippets/master/TitleBlocks/lang.css");
+
+/* @import url("https://rawgit.com/Snazzah/BeautifulDiscordSnippets/master/TitleBlocks/images.css");
+ * - Optional: Adds images to certain languages
+ */
+
 .markup .hljs::before {
     width: 100%;
     display: block;
@@ -16,9 +22,3 @@
 .markup pre {
     border: none !important;
 }
-
-@import url("https://rawgit.com/Snazzah/BeautifulDiscordSnippets/master/TitleBlocks/lang.css");
-
-/* @import url("https://rawgit.com/Snazzah/BeautifulDiscordSnippets/master/TitleBlocks/images.css");
- * - Optional: Adds images to certain languages
- */
