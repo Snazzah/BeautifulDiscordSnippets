@@ -84,3 +84,44 @@
     content: " TypeScript";
     background-color: #007acc;
 }
+
+.markup .hljs[class~="swift" i]::before {
+    content: " Swift";
+    background-color: #e53e2f;
+}
+
+.markup .hljs[class~="1c" i]::before {
+    content: " 1C:Enterprise";
+    background-color: #fbee9f;
+}
+
+.markup .hljs[class~="abnf" i]::before {
+    content: " Augmented Backus-Naur Form";
+    background-color: #fbee9f;
+}
+
+.markup .hljs[class~="rust" i]::before {
+    content: " Rust";
+    background-color: #ce7c47;
+}
+
+.markup .hljs[class~="objc" i]::before,
+.markup .hljs[class~="objectivec" i]::before {
+    content: " Objective-C";
+    background-color: #4c71ae;
+}
+
+.markup .hljs[class~="json" i]::before {
+    content: " JavaScript Object Notation";
+    background-color: #555;
+}
+
+.markup .hljs[class~="java" i]::before {
+    content: " Java";
+    background-color: #dd4f39;
+}
+
+.markup .hljs[class~="jboss-cli" i]::before {
+    content: " JBoss CLI";
+    background-color: #da352f;
+}
