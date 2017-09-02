@@ -68,3 +68,14 @@
 .markup .hljs[class~="less" i]::before {
     background-image: url(https://i-need.discord.cards/97c8db.png);
 }
+
+.markup .hljs[class~="as" i]::before,
+.markup .hljs[class~="actionscript" i]::before {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/0/0f/ActionScript_icon.png);
+    background-position: 90% 20%;
+}
+
+.markup .hljs[class~="apache" i]::before {
+    background-image: url(https://i-need.discord.cards/000285.png);
+    background-size: 20%;
+}
