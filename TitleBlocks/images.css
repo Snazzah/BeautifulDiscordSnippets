@@ -1,0 +1,20 @@
+.markup .hljs[class~="ruby" i]::before {
+    background-image: url(https://rebornix.gallerycdn.vsassets.io/extensions/rebornix/ruby/0.15.0/1503328840286/Microsoft.VisualStudio.Services.Icons.Default);
+}
+
+.markup .hljs[class~="python" i]::before,
+.markup .hljs[class~="py" i]::before {
+    background-image: url(https://www.python.org/static/opengraph-icon-200x200.png);
+    background-size: 15%;
+}
+
+.markup .hljs[class~="bash" i]::before,
+.markup .hljs[class~="sh" i]::before {
+    background-image: url(https://www.unixstickers.com/image/data/stickers/binbash/Bash-new.sh.png);
+    background-size: 15%;
+    background-position: 90% 65%;
+}
+
+.markup .hljs[class~="swift" i]::before {
+    background-image: url(https://i-need.discord.cards/52f19c.png);
+}
