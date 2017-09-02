@@ -161,3 +161,24 @@
     content: " Less";
     background-color: #254d76;
 }
+
+.markup .hljs[class~="actionlog" i]::before {
+    content: " Action Log";
+    background-color: #48ca20;
+}
+
+.markup .hljs[class~="as" i]::before,
+.markup .hljs[class~="actionscript" i]::before {
+    content: " ActionScript";
+    background-color: #56090b;
+}
+
+.markup .hljs[class~="ada" i]::before {
+    content: " Ada";
+    background-color: #b89845;
+}
+
+.markup .hljs[class~="apache" i]::before {
+    content: " Apache";
+    background-color: #7e2682;
+}
