@@ -1,90 +1,73 @@
-.tooltip.tooltip-right.tooltip-normal, .tooltip.tooltip-bottom.tooltip-normal, .tooltip.tooltip-top.tooltip-normal {
-    background: rgba(22,22,22,0.6);
-    color: #fff;
-    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+.tooltip {
+  background: rgba(22,22,22,0.6);
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.9);
 }
 
-.tooltip.tooltip-right.tooltip-normal:after, .tooltip.tooltip-bottom:after, .tooltip.tooltip-top:after {
-    opacity: 0;
+.tooltip:after {
+  opacity: 0;
+}
+
+.tooltip.tooltip-brand {
+    background: rgba(22,22,22,0.6);
 }
 
 .tooltip.tooltip-top {
-    -webkit-animation: tooltip-top-anim 200ms ease-in-out;
-    animation: tooltip-top-anim 200ms ease-in-out;
+  -webkit-animation: tooltip-top-anim 200ms ease-in-out;
+  animation: tooltip-top-anim 200ms ease-in-out;
 }
 
 .tooltip.tooltip-bottom {
-    -webkit-animation: tooltip-bottom-anim 200ms ease-in-out;
-    animation: tooltip-bottom-anim 200ms ease-in-out;
+  -webkit-animation: tooltip-bottom-anim 200ms ease-in-out;
+  animation: tooltip-bottom-anim 200ms ease-in-out;
 }
 
 .tooltip.tooltip-right {
-    -webkit-animation: tooltip-right-anim 200ms ease-in-out;
-    animation: tooltip-right-anim 200ms ease-in-out;
+  -webkit-animation: tooltip-right-anim 200ms ease-in-out;
+  animation: tooltip-right-anim 200ms ease-in-out;
+}
+
+.tooltip.tooltip-left {
+  -webkit-animation: tooltip-left-anim 200ms ease-in-out;
+  animation: tooltip-left-anim 200ms ease-in-out;
 }
 
 @-webkit-keyframes tooltip-top-anim {
-    from {
-        transform: translateY(-20px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
+  from {transform:translateY(-20px);opacity:0;}
+  100% {transform:translateY(0px);opacity:1;}
 }
 
 @keyframes tooltip-top-anim {
-    from {
-        transform: translateY(-20px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
+  from {transform:translateY(-20px);opacity:0;}
+  100% {transform:translateY(0px);opacity:1;}
 }
 
 @-webkit-keyframes tooltip-bottom-anim {
-    from {
-        transform: translateY(20px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
+  from {transform:translateY(20px);opacity:0;}
+  100% {transform:translateY(0px);opacity:1;}
 }
 
 @keyframes tooltip-bottom-anim {
-    from {
-        transform: translateY(20px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
+  from {transform:translateY(20px);opacity:0;}
+  100% {transform:translateY(0px);opacity:1;}
 }
 
 @-webkit-keyframes tooltip-right-anim {
-    from {
-        transform: translateX(20px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
+  from {transform:translateX(20px);opacity:0;}
+  100% {transform:translateX(0px);opacity:1;}
 }
 
 @keyframes tooltip-right-anim {
-    from {
-        transform: translateX(20px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
+  from {transform:translateX(20px);opacity:0;}
+  100% {transform:translateX(0px);opacity:1;}
+}
+
+@-webkit-keyframes tooltip-left-anim {
+  from {transform:translateX(-20px);opacity: 0;}
+  100% {transform:translateX(0px);opacity:1;}
+}
+
+@keyframes tooltip-left-anim {
+  from {transform:translateX(-20px);opacity:0;}
+  100% {transform:translateX(0px);opacity:1;}
 }
