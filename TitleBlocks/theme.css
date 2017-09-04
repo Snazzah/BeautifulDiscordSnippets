@@ -5,10 +5,9 @@
  */
 
 .markup .hljs::before {
-    width: 100%;
+    width: calc(100% + 1em);
     display: block;
     margin-top: -7px;
-    padding-right: 14px;
     overflow: visible;
     color: #fff;
     margin-bottom: 5px;
