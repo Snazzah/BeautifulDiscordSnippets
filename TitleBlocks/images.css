@@ -79,3 +79,41 @@
     background-image: url(https://i-need.discord.cards/000285.png);
     background-size: 20%;
 }
+
+.markup .hljs[class~="applescript" i]::before {
+    background-image: url(https://vignette2.wikia.nocookie.net/applescript/images/5/52/AppleScript_Logo.png/revision/latest?cb=20150906164437);
+}
+
+.markup .hljs[class~="arduino"]::before {
+    background-image: url(https://i-need.discord.cards/774643.png);
+}
+
+.markup .hljs[class~="autohotkey"]::before {
+    background-image: url(https://i-need.discord.cards/5f5870.png);
+}
+
+.markup .hljs[class~="awk"]::before {
+    background-image: url(https://blog.urfix.com/wp-content/uploads/2010/11/awk.jpg);
+}
+
+.markup .hljs[class~="autoit" i]::before {
+    background-image: url(https://www.stringencrypt.com/theme/blue/logo_autoit.png);
+}
+
+.markup .hljs[class~="capnp" i]::before,
+.markup .hljs[class~="capnproto" i]::before {
+    background-image: url(https://capnproto.org/images/logo.png);
+}
+
+.markup .hljs[class~="cmake" i]::before {
+    background-image: url(https://cmake.org/wp-content/uploads/2014/06/slider-cmake.png);
+}
+
+.markup .hljs[class~="cr" i]::before,
+.markup .hljs[class~="crystal" i]::before {
+    background-image: url(https://i-need.discord.cards/c1d16d.png);
+}
+
+.markup .hljs[class~="dart" i]::before {
+    background-image: url(https://avatars1.githubusercontent.com/u/1609975?v=4&s=200);
+}
