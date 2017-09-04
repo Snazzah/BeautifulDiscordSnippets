@@ -59,6 +59,7 @@
     background-color: #333;
 }
 
+.markup .hljs[class~="rb" i]::before,
 .markup .hljs[class~="ruby" i]::before {
     content: " Ruby";
     background-color: #e73e3e;
@@ -181,4 +182,133 @@
 .markup .hljs[class~="apache" i]::before {
     content: " Apache";
     background-color: #7e2682;
+}
+
+.markup .hljs[class~="applescript" i]::before {
+    content: " AppleScript";
+    background-color: #c3c5f6;
+}
+
+.markup .hljs[class~="arduino" i]::before {
+    content: " Arduino";
+    background-color: #00878f;
+}
+
+.markup .hljs[class~="armasm" i]::before {
+    content: " ARM Assembly";
+    background-color: #d04d9f;
+}
+
+.markup .hljs[class~="adoc" i]::before,
+.markup .hljs[class~="asciidoc" i]::before {
+    content: " AsciiDoc";
+    background-color: #73a0c5;
+}
+
+.markup .hljs[class~="aspectj" i]::before {
+    content: " AspectJ";
+    background-color: #f7b36c;
+}
+
+.markup .hljs[class~="autohotkey" i]::before {
+    content: " AutoHotkey";
+    background-color: #1c681d;
+}
+
+.markup .hljs[class~="autoit" i]::before {
+    content: " AutoIt";
+    background-color: #495fa9;
+}
+
+.markup .hljs[class~="avrasm" i]::before {
+    content: " AVR Assembler";
+    background-color: #6fb4cd;
+}
+
+.markup .hljs[class~="awk" i]::before {
+    content: " Awk";
+    background-color: #e7b725;
+}
+
+.markup .hljs[class~="axapta" i]::before {
+    content: " Axapta";
+    background-color: #e48241;
+}
+
+.markup .hljs[class~="basic" i]::before {
+    content: " BASIC";
+    background-color: #2020ff;
+}
+
+.markup .hljs[class~="bnf" i]::before {
+    content: " Backus–Naur Form";
+    background-color: #269709;
+}
+
+.markup .hljs[class~="bf" i]::before
+.markup .hljs[class~="brainfuck" i]::before, {
+    content: " Brainfuck";
+    background-color: #2f7cd6;
+}
+
+.markup .hljs[class~="cal" i]::before {
+    content: " C/AL";
+    background-color: #31a872;
+}
+
+.markup .hljs[class~="capnp" i]::before,
+.markup .hljs[class~="capnproto" i]::before {
+    content: " Cap’n Proto";
+    background-color: #c42727;
+}
+
+.markup .hljs[class~="ceylon" i]::before {
+    content: " Ceylon";
+    background-color: #6227c4;
+}
+
+.markup .hljs[class~="clean" i]::before {
+    content: " Clean";
+    background-color: #9bdede;
+}
+
+.markup .hljs[class~="clojure-repl" i]::before {
+    content: " Clojure REPL";
+    background-color: #9bbcde;
+}
+
+.markup .hljs[class~="cmake" i]::before {
+    content: " CMake";
+    background-color: #8f8f8f;
+}
+
+.markup .hljs[class~="coq" i]::before {
+    content: " Coq";
+    background-color: #0fbbc9;
+}
+
+.markup .hljs[class~="cos" i]::before {
+    content: " Caché Object Script";
+    background-color: #949696;
+}
+
+.markup .hljs[class~="crmsh" i]::before {
+    content: " crmsh";
+    background-color: #df6cb7;
+}
+
+.markup .hljs[class~="cr" i]::before,
+.markup .hljs[class~="crystal" i]::before {
+    content: " Crystal";
+    background-color: #111;
+}
+
+.markup .hljs[class~="csp" i]::before {
+    content: " CSP";
+    background-color: #df6c7b;
+}
+
+.markup .hljs[class~="dart" i]::before {
+    content: " Dart";
+    background-color: #00548f;
 }
