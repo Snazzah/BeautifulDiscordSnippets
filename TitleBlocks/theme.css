@@ -4,7 +4,7 @@
  * - Optional: Adds images to certain languages
  */
 
-.markup .hljs::before {
+div[class*="markup-"] .hljs::before {
     width: calc(100% + 1em);
     display: block;
     margin-top: -7px;
@@ -19,10 +19,10 @@
     background-repeat: no-repeat;
 }
 
-.markup pre {
+div[class*="markup-"] pre {
     border: none !important;
 }
 
-.markup .hljs {
+div[class*="markup-"] .hljs {
     border-radius: 5px;
 }
