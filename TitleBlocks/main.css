@@ -1,0 +1,22 @@
+div[class*="markup-"] .hljs::before {
+    width: calc(100% + 1em);
+    display: block;
+    margin-top: -7px;
+    overflow: visible;
+    color: #fff;
+    margin-bottom: 5px;
+    transform: translateX(-7px);
+    text-shadow: 0 0 5px #000;
+    background-size: 10%;
+    background-position: 90% 50%;
+    border-radius: 5px 5px 0 0;
+    background-repeat: no-repeat;
+}
+
+div[class*="markup-"] pre {
+    border: none !important;
+}
+
+div[class*="markup-"] .hljs {
+    border-radius: 5px;
+}
