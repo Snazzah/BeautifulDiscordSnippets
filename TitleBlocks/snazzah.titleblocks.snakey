@@ -1,0 +1,26 @@
+{
+  "manifest_ver": 1,
+  "style_type": "style",
+  "name": "Title Blocks",
+  "author": "Snazzah",
+  "id": "snazzah.titleblocks",
+  "version": "1.0.0",
+  "tags": ["discord"],
+  "css_link": "https://raw.githack.com/Snazzah/BeautifulDiscordSnippets/master/TitleBlocks/theme.css",
+  "homepage": "https://github.com/Snazzah/BeautifulDiscordSnippets/tree/master/TitleBlocks",
+  "urls": [
+    "*://discordapp.com*",
+    "*://ptb.discordapp.com*",
+    "*://canary.discordapp.com*"
+  ],
+	"simple_url": "discordapp.com",
+	"builtin_components": {
+		"images": {
+			"name": "Images",
+			"description": "Images include links from various sites with some not using HTTPS, enable with caution!",
+			"version": "1.0.0",
+			"default": false,
+			"css_link": "https://raw.githack.com/Snazzah/BeautifulDiscordSnippets/master/TitleBlocks/images.css"
+		}
+	}
+}
